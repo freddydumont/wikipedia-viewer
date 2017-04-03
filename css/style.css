@@ -1,0 +1,23 @@
+body{
+  background-color: #a63fa5;
+}
+
+h1,i{
+  color:white;
+}
+
+.glyphicon{
+  font-size: 120%;
+}
+
+input{
+  border-style: solid;
+  border-color: white;
+  border-width: medium;
+  border-radius: 4px;
+}
+
+#result-list{
+  opacity:0;
+  transition: opacity 0.25s, linear;
+}

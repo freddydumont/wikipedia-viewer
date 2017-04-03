@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Wikipedia Viewer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="container-fluid">
+
+  <div class="row text-center">
+    <div class="col-xs-12">
+      <h1>Wikipedia Viewer</h1>
+    </div>
+  </div>
+
+  <br />
+
+  <div class="row text-center">
+
+    <form id="form">
+      <i class="glyphicon glyphicon-search"></i>
+      <input size="40" placeholder="Search Wikipedia" id="search" type="text" class="validate" />
+      <button type="button" onclick="searchWiki()" class="btn btn-default btn-sm">Search</button>
+      <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank" class="btn btn-default btn-sm">I'm Feeling Lucky</a>
+    </form>
+  </div>
+
+  <br />
+
+  <div id="result-list" class="list-group">
+
+  </div>
+</div>
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
